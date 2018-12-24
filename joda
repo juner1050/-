@@ -1,0 +1,16 @@
+时间框架
+
+DataTime dt = new DateTime(); 
+	//昨天
+	DateTime yesterday = dt.minusDays(1);   
+	//明天
+	DateTime tomorrow = dt.plusdays(1);
+	//一个月前
+	DateTime before1month = dt.minusMonths(1);
+	//三个月后
+	DateTime after3month = dt.plusMonths(3);
+	//2年前
+	DataTime before2year = dt.minusYears(2);
+	//5年后
+	DataTime after5year = dt.plusYears(5);
+  
